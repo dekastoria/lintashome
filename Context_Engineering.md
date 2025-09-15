@@ -88,7 +88,7 @@ Membangun homepage dengan hero section yang conversion-focused, fleet preview, s
 
 **Next 3 Priority Tasks:**
 
-1. Setup Next.js + Tailwind + template https://github.com/akash3444/shadcn-ui-landing-page + Shadcn Block
+1. Setup Next.js + Tailwind + template https://github.com/dekastoria/shadcn + Shadcn Block
 2. Bangun Hero Section (headline, CTA, hero image)
 3. Tambahkan Navigation + Section "Tentang Kami" + Section "Harga"
 
