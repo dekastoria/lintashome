@@ -140,11 +140,11 @@ Contoh embed untuk Next.js:
 ## 🛠️ Tech Stack
 
 - [Next.js](https://nextjs.org/) – React framework (SSG/ISR)
-- [Turborepo](https://turbo.build/repo) – Monorepo manager
+- [template](https://github.com/dekastoria/shadcn) base 
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
 - [Framer Motion](https://www.framer.com/motion/) – Animasi modern
 - [shadcn/ui](https://ui.shadcn.com/) – Opsional, komponen UI siap pakai
-- **Hosting:** Vercel (opsi) atau VPS aaPanel (produksi)
+- **Hosting:** VPS aaPanel (produksi)
 
 ---
 
@@ -179,8 +179,7 @@ http://localhost:3000
 
 ## 🚀 Deployment
 
-- **Opsional 1:** Deploy otomatis di [Vercel](https://vercel.com) (klik Connect GitHub → Deploy)
-- **Opsional 2:** Deploy manual ke VPS via aaPanel (upload build hasil `npm run build`)
+- Deploy manual ke VPS via aaPanel (upload build hasil `npm run build`)
 
 ---
 
