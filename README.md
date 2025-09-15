@@ -49,11 +49,11 @@ dengan desain **futuristik, minimalis, mobile-first, dan conversion-focused**.
 ---
 
 ### 🏢 Tentang Kami
-**LintasHome** adalah penyedia layanan internet dan multimedia yang berdiri sejak **2016**.  
-Berawal dari inisiatif menghadirkan internet terjangkau bagi masyarakat Jepara, kini kami berkembang menjadi penyedia layanan internet **RT/RW-Net** yang legal dan andal.
+LintasHome adalah penyedia layanan internet berbasis RT/RW-Net yang berdiri sejak **2016** di Jepara.  
+Berawal dari inisiatif menghadirkan internet terjangkau bagi masyarakat Jepara, kini kami berkembang menjadi penyedia layanan internet **RT/RW-Net** yang legal dan andal, kami bermitra dengan **PT. Akses Data Internusa** sebagai backbone resmi dengan direct link ke IDC Jakarta.  
 
-Kami bekerja sama dengan ISP terpercaya dan menggunakan **backbone direct IDC Jakarta**, sehingga kualitas koneksi tetap **stabil dan low latency**.  
-Fokus kami adalah melayani masyarakat Jepara dengan **internet cepat, stabil, dan tanpa batasan FUP**.
+Dengan dukungan jaringan **fiber optic** dan tim teknis berpengalaman, kami berkomitmen menghadirkan koneksi internet  
+yang **stabil, cepat, dan berkualitas** untuk masyarakat Jepara.
 
 ---
 
@@ -89,8 +89,17 @@ Fokus kami adalah melayani masyarakat Jepara dengan **internet cepat, stabil, da
 ---
 
 ### 📊 Speedtest
-Kami menyediakan fitur speedtest langsung di website menggunakan embed **Ookla Speedtest**  
-sehingga pelanggan dapat mengecek kecepatan internet kapan saja.
+Kami menyediakan fitur speedtest langsung di website menggunakan embed **Ookla Speedtest**.  
+Contoh embed untuk Next.js:
+
+```jsx
+<iframe
+  src="https://embed.speedtest.net"
+  width="100%"
+  height="600"
+  frameBorder="0"
+></iframe>
+```
 
 ---
 
@@ -104,15 +113,16 @@ sehingga pelanggan dapat mengecek kecepatan internet kapan saja.
 ---
 
 ### ❓ FAQ (Opsional)
-- **Bagaimana cara mendaftar?** – Isi form di halaman pendaftaran online.
-- **Bagaimana cara bayar?** – Transfer bank / QRIS, konfirmasi via WA.
-- **Apakah bisa upgrade paket?** – Bisa kapan saja, tinggal hubungi admin.
-- **Jika internet bermasalah?** – Hubungi WA support 24/7.
+
+- **Bagaimana cara mendaftar?** – Klik tombol *Daftar Sekarang* dan isi form pendaftaran online.
+- **Bagaimana cara bayar?** – Transfer bank / QRIS, konfirmasi via WhatsApp admin.
+- **Apakah bisa upgrade paket?** – Bisa kapan saja, hubungi admin untuk proses upgrade.
+- **Jika internet bermasalah?** – Hubungi WA support 24/7, teknisi siap membantu.
 
 ---
 
 ### ⭐ Testimonial
-Slider berisi ulasan pelanggan:
+
 > "Internetnya stabil banget, cocok buat WFH!" – Andi, Pelanggan  
 > "Support cepat dan ramah, recommended!" – Sinta, Pelanggan  
 
@@ -152,14 +162,28 @@ Slider berisi ulasan pelanggan:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/username/lintashome-website.git
-cd lintashome-website
+git clone https://github.com/dekastoria/lintashome.git
+cd lintashome
 
 # 2. Install dependencies
 npm install   # atau yarn install / pnpm install
 
-# 3. Jalankan development server
-npm run dev
+# 3. Jalankan development server (khusus apps/web)
+npm run dev --filter=web
 
 # 4. Buka di browser
 http://localhost:3000
+```
+
+---
+
+## 🚀 Deployment
+
+- **Opsional 1:** Deploy otomatis di [Vercel](https://vercel.com) (klik Connect GitHub → Deploy)
+- **Opsional 2:** Deploy manual ke VPS via aaPanel (upload build hasil `npm run build`)
+
+---
+
+## 📄 Lisensi
+
+MIT License – bebas digunakan dan dimodifikasi sesuai kebutuhan.
