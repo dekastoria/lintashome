@@ -41,8 +41,9 @@ Masyarakat Jepara yang mencari layanan internet stabil & unlimited FUP untuk rum
 
 **Tech Stack:**
 
-- **Monorepo:** Turborepo (apps/web untuk Next.js app)
 - **Framework:** Next.js + Tailwind CSS (App Router)
+- shadcn/ui components
+- Shadcn Blocks (free/community/pro) copy‑paste or CLI add
 - **Animations:** Framer Motion + custom CSS gradient mesh
 - **UI:** Glassmorphism cards, hover effects, smooth transitions
 - **Deployment:** VPS via aaPanel (production) / Vercel (staging)
@@ -80,14 +81,14 @@ Masyarakat Jepara yang mencari layanan internet stabil & unlimited FUP untuk rum
 ✅ Business requirements gathering completed  
 ✅ Brand colors & visual identity finalized  
 ✅ Struktur halaman & copywriting disiapkan  
-✅ Tech stack diputuskan: Turborepo + Next.js + Tailwind + Framer Motion  
+✅ Tech stack diputuskan: Next.js + Tailwind + Shadcn + Framer Motion  
 
 **Current Goal:**  
 Membangun homepage dengan hero section yang conversion-focused, fleet preview, speedtest embed, dan kontak yang mudah diakses.
 
 **Next 3 Priority Tasks:**
 
-1. Setup Turborepo + Next.js + Tailwind
+1. Setup Next.js + Tailwind + template https://github.com/akash3444/shadcn-ui-landing-page + Shadcn Block
 2. Bangun Hero Section (headline, CTA, hero image)
 3. Tambahkan Navigation + Section "Tentang Kami" + Section "Harga"
 
