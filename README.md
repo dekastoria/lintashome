@@ -38,6 +38,7 @@ Dibangun menggunakan **Next.js + Tailwind CSS + Framer Motion** dengan desain **
 ## 🛠️ Tech Stack
 
 - [Next.js](https://nextjs.org/) – React framework (SSG/ISR)
+- Turborepo Monorepo (apps/web sebagai Next.js app) 
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
 - [Framer Motion](https://www.framer.com/motion/) – Animasi modern & smooth
 - [shadcn/ui](https://ui.shadcn.com/) – Opsional, komponen UI siap pakai
