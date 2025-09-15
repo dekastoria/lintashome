@@ -140,7 +140,7 @@ Contoh embed untuk Next.js:
 ## 🛠️ Tech Stack
 
 - [Next.js](https://nextjs.org/) – React framework (SSG/ISR)
-- [template](https://github.com/dekastoria/shadcn) base 
+- [template](https://github.com/dekastoria/lintas) base 
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
 - [Framer Motion](https://www.framer.com/motion/) – Animasi modern
 - [shadcn/ui](https://ui.shadcn.com/) – Opsional, komponen UI siap pakai
