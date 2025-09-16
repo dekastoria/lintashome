@@ -1,7 +1,7 @@
 # 🌐 LintasHome – Website Company Profile
 
 Website resmi **LintasHome**, penyedia layanan internet RT/RW-Net untuk wilayah Jepara.  
-Dibangun menggunakan **Turborepo monorepo** + **Next.js + Tailwind CSS + Framer Motion**  
+Dibangun menggunakan **Next.js + Tailwind CSS + Framer Motion**  
 dengan desain **futuristik, minimalis, mobile-first, dan conversion-focused**.
 
 ---
