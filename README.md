@@ -43,10 +43,10 @@ Prerequisite:
 
 - Hugo Extended terpasang
 
-Jalankan lokal:
+Jalankan dari root repository:
 
 ```bash
-hugo server --source "D:\vibe-2026\lintashome" -D --bind 127.0.0.1 --port 1313
+hugo server -D --bind 127.0.0.1 --port 1313
 ```
 
 Lalu buka:
@@ -56,7 +56,7 @@ Lalu buka:
 Build production:
 
 ```bash
-hugo --source "D:\vibe-2026\lintashome"
+hugo
 ```
 
 Output build akan dibuat di folder `public/`.
