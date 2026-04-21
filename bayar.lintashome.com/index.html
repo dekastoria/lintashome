@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pemberitahuan Layanan Internet - LintasHome</title>
+  <meta name="description" content="Halaman pemberitahuan penangguhan layanan internet LintasHome dan akses cepat untuk menghubungi admin atau mengecek tagihan.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#020617">
+  <link rel="canonical" href="https://bayar.lintashome.com/">
+  <style>
+    :root{
+      --slate-50:#f8fafc; --slate-100:#f1f5f9; --slate-200:#e2e8f0;
+      --slate-400:#94a3b8; --slate-500:#64748b; --slate-700:#334155;
+      --slate-800:#1f2937; --slate-900:#0f172a; --slate-950:#020617;
+      --yellow-400:#fbbf24; --red-500:#ef4444;
+      --ring-speed: 8s;
+      --outline-color: rgba(255,255,255,.28);
+      --outline-inset: rgba(255,255,255,.08);
+    }
+    html{line-height:1.5;-webkit-text-size-adjust:100%}
+    *,*::before,*::after{box-sizing:border-box;border:0 solid}
+    body{margin:0;font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; color:#fff; background:var(--slate-950)}
+    a{color:inherit;text-decoration:none}
+
+    .relative{position:relative}.absolute{position:absolute}
+    .absolute-fill{position:absolute;top:0;left:0;right:0;bottom:0}
+    .inset-0{top:0;right:0;bottom:0;left:0}
+    .min-h-screen{min-height:100vh}
+    .w-full{width:100%}
+    .flex{display:flex}.inline-flex{display:inline-flex}
+    .flex-col{flex-direction:column}
+    .items-center{align-items:center}.justify-center{justify-content:center}
+    .text-center{text-align:center}
+    .space-y-8 > * + *{margin-top:2rem}
+    .gap-4{gap:1rem}
+    .p-6{padding:1.5rem}.p-px{padding:1px}
+    .px-4{padding-left:1rem;padding-right:1rem}
+    .px-6{padding-left:1.5rem;padding-right:1.5rem}
+    .py-2{padding-top:.5rem;padding-bottom:.5rem}
+    .py-3{padding-top:.75rem;padding-bottom:.75rem}
+    .pt-4{padding-top:1rem}
+    .rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}
+    .shadow-sm{box-shadow:0 1px 2px 0 rgb(0 0 0 / .05)}
+    .overflow-hidden{overflow:hidden}
+    .group{position:relative}
+    .hidden{display:none}
+
+    .text-sm{font-size:.875rem;line-height:1.25rem}
+    .text-lg{font-size:1.125rem;line-height:1.75rem}
+    .text-slate-400{color:var(--slate-400)}
+    .text-slate-50{color:var(--slate-50)}
+    .text-slate-900{color:var(--slate-900)}
+    .text-yellow-400{color:var(--yellow-400)}
+    .tracking-tight{letter-spacing:-0.015em}
+    .font-medium{font-weight:500}
+    .max-w-2xl{max-width:42rem}
+    .text-4xl{font-size:2.25rem;line-height:2.5rem}
+    @media (min-width:768px){
+      .md\:space-y-12 > * + *{margin-top:3rem}
+      .md\:text-6xl{font-size:3.75rem;line-height:1}
+    }
+
+    .bg-slate-50{background-color:var(--slate-50)}
+    .bg-slate-800{background-color:var(--slate-800)}
+    .bg-slate-900{background-color:var(--slate-900)}
+    .bg-yellow-400{background-color:var(--yellow-400)}
+
+    .hover\:bg-slate-200:hover{background-color:var(--slate-200)}
+    .hover\:bg-slate-700:hover{background-color:var(--slate-700)}
+    .hover\:bg-yellow-300:hover{background-color:#f59e0b}
+    .group:hover .group-hover\:bg-slate-900\/80{background-color:rgb(15 23 42 / .8)}
+    .transition-colors{transition:color .15s, background-color .15s}
+    .backdrop-blur-sm{backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+
+    .bg-grid{background-image:linear-gradient(to right, rgba(79,79,79,.18) 1px, transparent 1px),linear-gradient(to bottom, rgba(79,79,79,.18) 1px, transparent 1px);background-size:14px 24px;-webkit-mask-image:radial-gradient(ellipse 60% 50% at 50% 0%, #000 70%, transparent 100%);mask-image:radial-gradient(ellipse 60% 50% at 50% 0%, #000 70%, transparent 100%)}
+
+    /* cincin berputar (halus) */
+    .conic-ring{
+      background-image:conic-gradient(from 0deg at 50% 50%,
+        rgba(226,203,255,0.00) 0deg,
+        rgba(226,203,255,0.85) 40deg,
+        #a78bfa 110deg,
+        #6366f1 180deg,
+        #22d3ee 250deg,
+        rgba(226,203,255,0.85) 320deg,
+        rgba(226,203,255,0.00) 360deg);
+      filter:blur(1px) saturate(1.05);
+      opacity:.92; will-change:transform; z-index:2; border-radius:9999px;
+    }
+    @keyframes spin360{to{transform:rotate(360deg)}}
+    .animate-spin-soft{animation:spin360 var(--ring-speed) linear infinite}
+
+    /* outline tipis di bawah cincin */
+    .ring-outline{
+      z-index:1; border-radius:9999px; pointer-events:none;
+      box-shadow:
+        0 0 0 1px var(--outline-color),
+        inset 0 0 0 1px var(--outline-inset);
+    }
+
+    /* banner offline */
+    .banner{position:fixed;left:0;right:0;top:0;display:flex;align-items:center;justify-content:center;padding:.5rem 1rem;gap:.5rem;font-size:.875rem;line-height:1.25rem;z-index:50}
+    .banner .dot{width:.5rem;height:.5rem;border-radius:9999px;background:#fff;opacity:.75}
+    .bg-red-500{background:var(--red-500)}
+
+    /* tombol responsif */
+    .btn-row{display:flex;flex-direction:column;align-items:center;width:100%}
+    .cta-btn{width:min(100%, 15.5rem)}
+    .support-link{font-size:.95rem;color:var(--slate-400);transition:color .15s;text-decoration:none}
+    .support-link:hover{color:var(--slate-50)}
+    .modal-backdrop{
+      position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;
+      padding:1rem;background:rgba(2,6,23,.82);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+    }
+    .modal-backdrop.is-open{display:flex}
+    .modal-card{
+      width:min(100%, 32rem);background:rgba(15,23,42,.96);border:1px solid rgba(148,163,184,.2);
+      box-shadow:0 20px 60px rgba(2,6,23,.45);padding:1rem;
+    }
+    .modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+    .modal-title{margin:0;font-size:1.25rem;line-height:1.75rem}
+    .modal-copy{margin:.35rem 0 0;color:var(--slate-400);font-size:.95rem}
+    .icon-btn{
+      display:inline-flex;align-items:center;justify-content:center;min-width:2.75rem;min-height:2.75rem;
+      padding:.75rem;border-radius:9999px;background:var(--slate-800);color:var(--slate-50);cursor:pointer;
+      transition:background-color .15s,color .15s;
+    }
+    .icon-btn:hover{background:var(--slate-700)}
+    .modal-image-wrap{
+      background:#fff;border-radius:1rem;padding:.75rem;display:flex;justify-content:center;align-items:center;
+      margin-bottom:1rem;
+    }
+    .modal-image{width:100%;height:auto;max-width:24rem;border-radius:.75rem;display:block}
+    .modal-actions{display:flex;flex-direction:column;gap:.75rem}
+    .modal-actions .action-row{display:flex;flex-direction:column;gap:.75rem}
+    .w-full-btn{width:100%;display:inline-flex;align-items:center;justify-content:center;min-height:3rem}
+    @media (min-width:640px){
+      .btn-row{flex-direction:row;justify-content:center}
+      .cta-btn{width:100%}
+      .modal-card{padding:1.25rem}
+      .modal-actions .action-row{flex-direction:row}
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner konektivitas -->
+  <div id="net-banner" class="banner bg-red-500 hidden" style="display:none">
+    <span class="dot"></span>
+    <span><strong>Offline.</strong> Matikan koneksi Wi-Fi dan silakan beralih memakai <strong>data seluler</strong> untuk menghubungi LintasHome.</span>
+  </div>
+
+  <div class="relative min-h-screen w-full flex flex-col items-center justify-center p-6 text-center">
+    <div class="absolute inset-0 bg-grid"></div>
+
+    <main class="relative z-10 flex flex-col items-center space-y-8 md:space-y-12">
+      <!-- Badge cincin: juga bisa diarahkan ke lintasjepara.com bila online -->
+      <header>
+        <a id="brand-link"
+           href="https://lintasjepara.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="relative inline-flex items-center justify-center p-px overflow-hidden group rounded-full">
+          <span class="absolute-fill ring-outline"></span>
+          <span class="absolute-fill animate-spin-soft conic-ring"></span>
+          <span class="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-slate-50 bg-slate-900 rounded-full group-hover:bg-slate-900/80 backdrop-blur-sm transition-colors" style="position:relative;z-index:3;">
+            Lintashome <span style="margin:0 .375rem;">⚡</span> Speed Meets Stability
+          </span>
+        </a>
+      </header>
+
+      <h1 class="text-4xl md:text-6xl tracking-tight">Akses Internet Anda Ditangguhkan</h1>
+      <p class="max-w-2xl text-lg text-slate-400">Pelanggan LintasHome yang kami hormati, layanan internet Anda ditangguhkan sementara karena adanya tagihan yang telah melewati jatuh tempo. Untuk dapat menggunakan layanan kembali, silakan selesaikan pembayaran Anda.</p>
+
+      <footer class="flex flex-col items-center justify-center gap-4 pt-4" style="width:min(100%, 32rem);">
+        <div class="btn-row items-center justify-center gap-4" style="width:100%;">
+          <button id="btn-pay" type="button"
+             class="cta-btn w-full inline-flex justify-center rounded-lg bg-yellow-400 px-6 py-3 text-sm text-slate-900 shadow-sm hover:bg-yellow-300 transition-colors" style="min-width:10rem;cursor:pointer;">
+            Bayar Sekarang
+          </button>
+          <a id="btn-bill" href="https://e.ebilling.id/tagihan/?account=3758" target="_blank" rel="noopener noreferrer"
+             class="cta-btn w-full inline-flex justify-center rounded-lg bg-slate-800 px-6 py-3 text-sm text-slate-50 shadow-sm hover:bg-slate-700 transition-colors" style="min-width:10rem;">
+            Cek Tagihan
+          </a>
+        </div>
+        <a id="btn-wa" href="https://wa.me/6282225488188" target="_blank" rel="noopener noreferrer" class="support-link">
+          Butuh bantuan? Hubungi LintasHome Support
+        </a>
+      </footer>
+    </main>
+  </div>
+
+  <div id="qris-modal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-card rounded-2xl" role="dialog" aria-modal="true" aria-labelledby="qris-modal-title">
+      <div class="modal-head">
+        <div>
+          <h2 id="qris-modal-title" class="modal-title text-slate-50">Bayar via QRIS</h2>
+          <p class="modal-copy">Scan QRIS ini dari mobile banking atau e-wallet Anda, lalu simpan gambarnya bila perlu.</p>
+        </div>
+        <button id="btn-close-modal" type="button" class="icon-btn" aria-label="Tutup popup pembayaran">
+          ✕
+        </button>
+      </div>
+
+      <div class="modal-image-wrap">
+        <img src="./qris-lintashome.jpeg" alt="Kode QRIS pembayaran LintasHome" class="modal-image">
+      </div>
+
+      <div class="modal-actions">
+        <div class="action-row">
+          <a href="./qris-lintashome.jpeg" download="qris-lintashome.jpeg" class="w-full-btn inline-flex justify-center rounded-lg bg-slate-50 px-6 py-3 text-sm text-slate-900 shadow-sm hover:bg-slate-200 transition-colors">
+            Download QRIS
+          </a>
+          <button id="btn-close-modal-bottom" type="button" class="w-full-btn inline-flex justify-center rounded-lg bg-slate-800 px-6 py-3 text-sm text-slate-50 shadow-sm hover:bg-slate-700 transition-colors" style="cursor:pointer;">
+            Tutup
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var LINKS = {
+        wa: "https://wa.me/6282225488188",
+        bill: "https://e.ebilling.id/tagihan/?account=3758",
+        brand: "https://lintasjepara.com/"
+      };
+
+      var wa    = document.getElementById('btn-wa');
+      var bill  = document.getElementById('btn-bill');
+      var brand = document.getElementById('brand-link');
+      var pay   = document.getElementById('btn-pay');
+      var banner = document.getElementById('net-banner');
+      var modal = document.getElementById('qris-modal');
+      var modalCloseTop = document.getElementById('btn-close-modal');
+      var modalCloseBottom = document.getElementById('btn-close-modal-bottom');
+      var OFFLINE_MSG = "Saat ini jaringan Anda sedang offline. Matikan koneksi Wi-Fi dan silakan beralih memakai data seluler untuk menghubungi LintasHome.";
+
+      function showBanner(){
+        banner.classList.remove('hidden');
+        banner.style.display = 'flex';
+      }
+      function hideBanner(){
+        banner.classList.add('hidden');
+        banner.style.display = 'none';
+      }
+
+      function preventAndAlert(e){ e.preventDefault(); alert(OFFLINE_MSG); return false; }
+
+      function openModal(){
+        if (!modal) return;
+        modal.classList.add('is-open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal(){
+        if (!modal) return;
+        modal.classList.remove('is-open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+
+      function handlePayClick(e){
+        e.preventDefault();
+        if (!navigator.onLine){
+          alert(OFFLINE_MSG);
+          return false;
+        }
+        openModal();
+        return false;
+      }
+
+      function setOfflineUI(){
+        showBanner();
+        closeModal();
+
+        // Matikan semua link ke luar & hapus target agar tak buka tab baru
+        [brand, wa, bill].forEach(function(el){
+          if (!el) return;
+          el.dataset._href = el.getAttribute('href') || '';
+          el.dataset._target = el.getAttribute('target') || '';
+          el.dataset._rel = el.getAttribute('rel') || '';
+          el.setAttribute('href', '#');
+          el.removeAttribute('target');
+          el.removeAttribute('rel');
+          el.onclick = preventAndAlert;
+        });
+
+        if (pay){
+          pay.disabled = true;
+          pay.onclick = preventAndAlert;
+          pay.style.opacity = '.7';
+          pay.style.cursor = 'not-allowed';
+        }
+      }
+
+      function setOnlineUI(){
+        hideBanner();
+
+        // Pulihkan semua link dan target="_blank"
+        if (brand){ brand.setAttribute('href', LINKS.brand); brand.setAttribute('target','_blank'); brand.setAttribute('rel','noopener noreferrer'); brand.onclick = null; }
+        if (wa)   { wa.setAttribute('href', LINKS.wa);       wa.setAttribute('target','_blank');   wa.setAttribute('rel','noopener noreferrer'); wa.onclick = null; }
+        if (bill) { bill.setAttribute('href', LINKS.bill);   bill.setAttribute('target','_blank'); bill.setAttribute('rel','noopener noreferrer'); bill.onclick = null; }
+        if (pay)  { pay.disabled = false; pay.onclick = handlePayClick; pay.style.opacity = '1'; pay.style.cursor = 'pointer'; }
+      }
+
+      function updateConnectivity(){
+        if (navigator.onLine) setOnlineUI(); else setOfflineUI();
+      }
+
+      if (modalCloseTop) modalCloseTop.addEventListener('click', closeModal);
+      if (modalCloseBottom) modalCloseBottom.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', function(e){
+          if (e.target === modal) closeModal();
+        });
+      }
+
+      document.addEventListener('keydown', function(e){
+        if (e.key === 'Escape') closeModal();
+      });
+
+      // Event & fallback agar banner benar-benar auto hide saat koneksi ada
+      window.addEventListener('online',  updateConnectivity);
+      window.addEventListener('offline', updateConnectivity);
+
+      var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      if (conn && typeof conn.addEventListener === 'function'){
+        conn.addEventListener('change', updateConnectivity);
+      }
+
+      // Re-check cepat (misal ganti Wi-Fi → data tapi event telat)
+      var recheckTimer = setInterval(updateConnectivity, 2000);
+
+      // Bersihkan interval saat halaman tidak aktif lama (hemat)
+      document.addEventListener('visibilitychange', function(){
+        if (document.hidden){ clearInterval(recheckTimer); }
+        else { recheckTimer = setInterval(updateConnectivity, 2000); updateConnectivity(); }
+      });
+
+      // Initial run
+      updateConnectivity();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+- name: Rizky Pratama
+  function: Pemilik Toko Sembako – Tahunan
+  image: /1.webp
+  description: "Wifi stabil dan nggak lemot. Mesin EDC & kasir online jalan terus, upload struk cepat. Hujan pun koneksi tetap aman."
+  stars: 5
+
+- name: Siti Mulyani
+  function: Guru – Jepara Kota
+  image: /2.webp
+  description: "Mengajar via Zoom lancar tanpa putus. Anak saya juga belajar daring mulus—LintasHome benar-benar stabil."
+  stars: 5
+
+- name: Dika Ananta
+  function: Gamer – Kelet
+  image: /3.webp
+  description: "Ping rendah dan jarang loss. Main ML & Valorant sore-malam tetap mulus, download update juga ngebut."
+  stars: 5
+
+- name: Rini Handayani
+  function: Pemilik Kedai Kopi – Bangsri
+  image: /4.webp
+  description: "Pemasangan cepat, sehari jadi. Modem dipinjamkan, setting dibantu sampai rapi. CS responsif lewat WhatsApp."
+  stars: 5
+
+- name: Yusuf Hidayat
+  function: Freelancer Desain – Sekuro
+  image: /5.webp
+  description: "Kirim file ratusan MB tanpa drama. Meeting Google Meet jernih, koneksi stabil buat kerja remote harian."
+  stars: 5
+
+- name: Ahmad Fauzan
+  function: Kantor Travel – Keling
+  image: /6.webp
+  description: "CCTV & backup cloud stabil. Streaming 4K di ruang tunggu lancar. Gratis biaya instalasi sangat membantu."
+  stars: 4

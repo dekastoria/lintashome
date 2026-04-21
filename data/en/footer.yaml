@@ -1,0 +1,17 @@
+logo_image:
+menuitems:
+  - title: © 2025 LintasHome — all rights reserved.
+
+  
+
+socials:
+  - title: Facebook
+    link: https://www.facebook.com/profile.php?id=61578366518517
+    logo_image: /img/facebook.svg
+  - title: Instagram
+    link: https://instagram.com/
+    logo_image: /img/instagram.svg
+  # (opsional) tambah WhatsApp ikon sendiri jika mau:
+  # - title: WhatsApp
+  #   link: https://wa.me/6282225488188
+  #   logo_image: /uploads/icons/whatsapp.svg

@@ -1,0 +1,52 @@
+baseURL: "https://lintasjepara.com/"
+theme: "hugobricks"
+defaultContentLanguage: "en"
+
+# (opsional) kalau Anda memang tidak punya folder "assets", biarkan baris ini hilang saja.
+# assetDir: static   # default Hugo adalah "assets"
+
+disableKinds:
+  - taxonomy
+  - term
+  - section      # cegah halaman section otomatis (blog/services/products)
+  # - RSS        # aktifkan kalau butuh
+  # - sitemap    # JANGAN dinonaktifkan untuk SEO
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      extras:
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+
+languages:
+  en:
+    languageName: "Bahasa Indonesia"
+    contentDir: "content/en"
+    weight: 1
+    disabled: false
+    permalinks: {}   # kosongkan: tidak bikin /blog, /services, dll
+
+# Abaikan semua halaman contoh/fitur yang tidak dipakai
+ignoreFiles:
+  # demo & headers
+  - '^content/en/demo-.*\.md$'
+  - '^content/en/header-.*\.md$'     # header-dark(er), header-transparent, header-with-*
+  - '^content/en/headers\.md$'
+  # folder docs/blog/services/products yang tidak dipakai
+  - '^content/en/docs/.*'
+  - '^content/en/posts/.*'
+  - '^content/en/services/.*'
+  - '^content/en/products/.*'
+  # halaman demo gambar
+  - '^content/en/images\.md$'
+

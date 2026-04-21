@@ -1,0 +1,21 @@
+logo_image:
+logo_subtitle: Speed Meets Stability
+dark_header: false
+mobile_view_width: 1100
+menuitems:
+  - title: Tentang
+    link: /#tentang
+  - title: Testimoni
+    link: /#testimoni
+  - title: Layanan
+    link: /#layanan
+  - title: Harga
+    link: /#harga
+  - title: Kontak
+    link: /#kontak
+     
+cta:
+  active: true
+  title: Daftar Sekarang
+  link: https://e.ebilling.id/billing/registrasi/?account=3758
+preheader: Buka Senin–Jumat 09.00–17.00

@@ -1,0 +1,124 @@
+/* Tarik CSS bawaan tema */
+@import "/css/fonts.css";
+@import "/css/base.css";
+@import "/css/header-footer.css";
+@import "/css/bricks.css";
+
+/* =========================
+   OVERRIDES LINTASHOME
+   ========================= */
+
+/* Brand colors */
+:root{
+  --accent: #00B1CF;
+  --accentDarker: #0098B3;
+}
+
+/* Re-color ikon aksen kuning → toska */
+img.black_2_accent, svg.black_2_accent {
+  filter: contrast(0.6) sepia(1) hue-rotate(165deg) saturate(5) brightness(1) !important;
+}
+
+/* Jangan warnai ulang SVG ilustrasi — tampilkan warna asli */
+img.is_svg,
+.brick_image img.is_svg,
+.brick_image2 img.is_svg {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* Avatar jangan di-abu-kan */
+.avatar,
+.avatar.colorize_image,
+.brick_reviews .avatar {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* -------- Footer styling -------- */
+footer.dark {
+  background: #263238; /* biru-keabu */
+}
+footer.dark,
+footer.dark a,
+footer.dark .logo,
+footer.dark .logo * {
+  color: #ffffff;
+}
+
+/* Matikan filter pada logo/footer supaya warna asli tampil */
+footer .logo img,
+footer .footerlogo img,
+footer img.inline.black_2_textDark,
+footer img.black_2_textDark,
+footer img.black_2_textMedium,
+footer img.black_2_accent {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+/* Cadangan: paksa SEMUA img di footer tanpa filter */
+footer img {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* -------- Header WA icon -------- */
+/* Besarkan area klik ikon WA di header + sembunyikan badge */
+header a[href^="https://wa.me"]{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:40px; height:40px; line-height:0;
+}
+header a[href^="https://wa.me"] img.black_2_textDark,
+header a[href^="https://wa.me"] > img{
+  width:28px !important; height:28px !important;
+}
+header .itemcount{ display:none !important; }
+
+/* Matikan filter pada logo header */
+header .logo img,
+header img.black_2_textDark {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* -------- Tombol WhatsApp (abu gelap #263238) -------- */
+/* Hanya tombol yang punya class "button secondary" */
+a.button.secondary {
+  background: #263238;
+  border-color: #263238;
+  color: #ECEFF1; /* teks terang */
+}
+a.button.secondary:hover {
+  background: #314247;
+  border-color: #314247;
+}
+a.button.secondary:active {
+  background: #1f2a2f;
+  border-color: #1f2a2f;
+}
+a.button.secondary:focus {
+  outline: 2px solid var(--accent, #00B1CF);
+  outline-offset: 2px;
+}
+
+/* Footer: sembunyikan hanya gambar logo, biarkan teksnya tampil */
+footer .logo img,
+footer .footerlogo img,
+footer .logo img[src$="lintashome-logo-only.webp"] {
+  display: none !important;
+}
+
+/* Rapikan baris teks brand + tagline di footer */
+footer .logo .has_subtitle {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;                 /* jarak kecil antara brand & tagline */
+}
+
+/* Pastikan warna/tint tidak diterapkan ke teks */
+footer .logo, 
+footer .logo * {
+  filter: none !important;
+  color: #fff;              /* sesuaikan warna footer-mu */
+}
+
