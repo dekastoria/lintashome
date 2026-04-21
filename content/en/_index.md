@@ -124,55 +124,70 @@ Pilih paket yang pas untuk rumah, toko/UMKM, atau kantor. Semua paket **tanpa FU
 ---
 
 **hemat**
-### Paket Keluarga
+### Paket Hemat
 
-Internet stabil untuk penggunaan rumahan.
+Pilihan paling ringan untuk kebutuhan dasar di rumah.
 
-### Rp **150.000**/bulan
+### Rp **100.000**/bulan
 
 - Hingga **10 Mbps**
+- Cocok untuk **1–3 perangkat**
 - **Gratis pemasangan**
-- Internet **Stabil 24 jam**
-- **Instalasi cepat**
-- **Customer Service ramah**
+- Internet stabil untuk browsing & chat
+- **CS siap bantu**
 
-[Daftar Sekarang](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2010Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2010Mbps%29)
 
 ---
 
 **populer**
+### Paket Keluarga
 
+Paling pas untuk keluarga aktif, streaming, dan kerja dari rumah.
+
+### Rp **150.000**/bulan
+
+- Hingga **20 Mbps**
+- Cocok untuk **3–6 perangkat**
+- **Gratis pemasangan**
+- Internet stabil 24 jam
+- **Instalasi cepat**
+
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2020Mbps%29)
+
+---
+
+**bisnis**
 ### Paket Bisnis
 
-Pilihan paling diminati untuk Toko/UMKM & kantor kecil.
+Untuk toko, UMKM, dan kantor kecil yang butuh koneksi konsisten.
 
 ### Rp **200.000**/bulan
 
-- Hingga **20 Mbps**
-- **Gratis pemasangan** 
-- Internet **Stabil 24 jam**
-- **Instalasi cepat** (1–2 hari)
+- Hingga **30 Mbps**
+- Cocok untuk **6–10 perangkat**
+- **Gratis pemasangan**
+- Prioritas untuk kasir, CCTV, dan operasional
 - **CS responsif**
 
-[Ya, pilih ini!](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2020Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2030Mbps%29)
 
 ---
 
 **premium**
-
 ### Paket Premium
 
-Untuk kebutuhan yang lebih tinggi & banyak perangkat.
+Untuk kebutuhan tinggi, banyak perangkat, dan penggunaan lebih intensif.
 
 ### Rp **250.000**/bulan
 
-- Hingga **30 Mbps**
-- **Gratis pemasangan** 
-- Internet **Stabil 24 jam**
-- **Instalasi cepat** 
+- Hingga **50 Mbps**
+- Cocok untuk **10+ perangkat**
+- **Gratis pemasangan**
+- Nyaman untuk streaming, kerja, CCTV, dan upload besar
 - Dukungan prioritas
 
-[Hubungi kami](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%2030Mbps%29)
+[Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%2050Mbps%29)
 
 {{< /brick_prices >}}
 
