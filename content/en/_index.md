@@ -55,7 +55,7 @@ Kami menghadirkan internet yang **stabil, cepat, dan tanpa FUP** untuk rumah mau
 
 - Unlimited tanpa FUP – pakai sepuasnya.
 - Latency rendah – meeting & game lebih mulus.
-- Hingga 10 Mbps untuk paket awal *(tersedia opsi lebih tinggi)*.
+- Hingga 15 Mbps untuk paket awal *(tersedia opsi hingga 100 Mbps)*.
 - Instalasi cepat 1–2 hari, **gratis biaya pasang** + **modem dipinjamkan**
 - Opsi **Dedicated/SLA bisnis** untuk kebutuhan perusahaan.
 - **Customer Service ramah & responsif**
@@ -130,13 +130,13 @@ Pilihan paling ringan untuk kebutuhan dasar di rumah.
 
 ### Rp **100.000**/bulan
 
-- Hingga **10 Mbps**
+- Hingga **15 Mbps**
 - Cocok untuk **1–3 perangkat**
 - **Gratis pemasangan**
 - Internet stabil untuk browsing & chat
 - **CS siap bantu**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2010Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2015Mbps%29)
 
 ---
 
@@ -147,13 +147,13 @@ Paling pas untuk keluarga aktif, streaming, dan kerja dari rumah.
 
 ### Rp **150.000**/bulan
 
-- Hingga **20 Mbps**
+- Hingga **25 Mbps**
 - Cocok untuk **3–6 perangkat**
 - **Gratis pemasangan**
 - Internet stabil 24 jam
 - **Instalasi cepat**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2020Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2025Mbps%29)
 
 ---
 
@@ -164,13 +164,13 @@ Untuk toko, UMKM, dan kantor kecil yang butuh koneksi konsisten.
 
 ### Rp **200.000**/bulan
 
-- Hingga **30 Mbps**
+- Hingga **50 Mbps**
 - Cocok untuk **6–10 perangkat**
 - **Gratis pemasangan**
 - Prioritas untuk kasir, CCTV, dan operasional
 - **CS responsif**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2030Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2050Mbps%29)
 
 ---
 
@@ -181,13 +181,13 @@ Untuk kebutuhan tinggi, banyak perangkat, dan penggunaan lebih intensif.
 
 ### Rp **250.000**/bulan
 
-- Hingga **50 Mbps**
+- Hingga **100 Mbps**
 - Cocok untuk **10+ perangkat**
 - **Gratis pemasangan**
 - Nyaman untuk streaming, kerja, CCTV, dan upload besar
 - Dukungan prioritas
 
-[Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%2050Mbps%29)
+[Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%20100Mbps%29)
 
 {{< /brick_prices >}}
 
