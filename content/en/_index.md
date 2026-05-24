@@ -191,6 +191,29 @@ Untuk kebutuhan tinggi, banyak perangkat, dan penggunaan lebih intensif.
 
 {{< /brick_prices >}}
 
+<!-- ===== SPEEDTEST ===== -->
+<div id="speedtest"></div>
+<section class="speedtest-section">
+  <div class="container">
+    <div class="speedtest-layout">
+      <div class="speedtest-copy">
+        <p class="speedtest-kicker">Speedtest LintasHome</p>
+        <h2>Uji Kecepatan Internet Anda</h2>
+        <p>Cek kecepatan koneksi LintasHome Anda secara real-time melalui server speedtest kami.</p>
+      </div>
+      <div class="speedtest-frame">
+        <iframe
+          src="https://dsserver.speedtestcustom.com"
+          title="Speedtest LintasHome"
+          loading="lazy"
+          scrolling="no"
+          frameborder="0"
+          allow="fullscreen"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== KONTAK ===== -->
 <div id="kontak"></div>
 {{< brick_cta >}}{{< /brick_cta >}}
