@@ -5,14 +5,14 @@ mobile_view_width: 1100
 menuitems:
   - title: Tentang
     link: /#tentang
+  - title: Speedtest
+    link: /#speedtest
   - title: Testimoni
     link: /#testimoni
   - title: Layanan
     link: /#layanan
   - title: Harga
     link: /#harga
-  - title: Speedtest
-    link: /#speedtest
   - title: Kontak
     link: /#kontak
      

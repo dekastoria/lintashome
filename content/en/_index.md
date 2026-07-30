@@ -6,17 +6,17 @@ title: "LintasHome, Speed Meets Stability"
 seo:
   title: "LintasHome — Speed Meets Stability"
   description: "Internet cepat, stabil, tanpa FUP…"
-  image: "/og/lintashome-og.jpg"   # WA/FB suka JPG/PNG
+  image: "/lintashome-og.jpg"   # WA/FB suka JPG/PNG
 
 # Dipakai oleh Hugo/tema sebagai sumber gambar halaman
 images:
-  - "/og/lintashome-og.jpg"        # prioritas 1 (OG aman)
-  - "/og/lintashome-og.webp"       # fallback tambahan
+  - "/lintashome-og.jpg"        # prioritas 1 (OG aman)
+  - "/lintashome-og.webp"       # fallback tambahan
 
 # Beberapa tema masih baca kunci ini:
-featured_image: "/lintashome-og.webp"
-og_image:       "/lintashome-og.webp"
-twitter_image:  "/lintashome-og.webp"
+featured_image: "/lintashome-og.jpg"
+og_image:       "/lintashome-og.jpg"
+twitter_image:  "/lintashome-og.jpg"
 ---
 {{< brick_intro >}}
 
@@ -63,6 +63,28 @@ Kami menghadirkan internet yang **stabil, cepat, dan tanpa FUP** untuk rumah mau
 Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20minta%20rekomendasi%20paket%20internet%20yang%20cocok).
 
 {{< /brick_image >}}
+<!-- ===== SPEEDTEST ===== -->
+<div id="speedtest"></div>
+<section class="speedtest-section">
+  <div class="container">
+    <div class="speedtest-layout">
+      <div class="speedtest-copy">
+        <p class="speedtest-kicker">Speedtest LintasHome</p>
+        <h2>Uji Kecepatan Internet Anda</h2>
+        <p>Cek kecepatan koneksi LintasHome Anda secara real-time melalui server speedtest kami.</p>
+      </div>
+      <div class="speedtest-frame">
+        <iframe
+          src="https://dsserver.speedtestcustom.com"
+          title="Speedtest LintasHome"
+          loading="lazy"
+          scrolling="no"
+          frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== TESTIMONI ===== -->
 <div id="testimoni"></div>
 {{< brick_reviews >}}{{< /brick_reviews >}}
@@ -190,29 +212,6 @@ Untuk kebutuhan tinggi, banyak perangkat, dan penggunaan lebih intensif.
 [Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%20100Mbps%29)
 
 {{< /brick_prices >}}
-
-<!-- ===== SPEEDTEST ===== -->
-<div id="speedtest"></div>
-<section class="speedtest-section">
-  <div class="container">
-    <div class="speedtest-layout">
-      <div class="speedtest-copy">
-        <p class="speedtest-kicker">Speedtest LintasHome</p>
-        <h2>Uji Kecepatan Internet Anda</h2>
-        <p>Cek kecepatan koneksi LintasHome Anda secara real-time melalui server speedtest kami.</p>
-      </div>
-      <div class="speedtest-frame">
-        <iframe
-          src="https://dsserver.speedtestcustom.com"
-          title="Speedtest LintasHome"
-          loading="lazy"
-          scrolling="no"
-          frameborder="0"
-          allow="fullscreen"></iframe>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ===== KONTAK ===== -->
 <div id="kontak"></div>

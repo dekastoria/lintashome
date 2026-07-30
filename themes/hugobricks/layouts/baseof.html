@@ -8,6 +8,32 @@
 
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="shortcut icon" href="{{ .Site.Data.settings.favicon_image }}">
+
+    {{- /* Open Graph (WhatsApp, Facebook, dll) */ -}}
+    {{- $ogTitle := .Title -}}
+    {{- with .Params.seo.title }}{{ $ogTitle = . }}{{ end -}}
+    {{- $ogDesc := .Summary -}}
+    {{- with .Params.seo.description }}{{ $ogDesc = . }}{{ end -}}
+    {{- $ogImage := "" -}}
+    {{- with .Params.og_image }}{{ $ogImage = . }}{{ end -}}
+    {{- if not $ogImage }}{{ with .Params.featured_image }}{{ $ogImage = . }}{{ end -}}{{- end -}}
+    {{- if not $ogImage }}{{ range .Params.images }}{{ $ogImage = . }}{{ break }}{{ end -}}{{- end -}}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ $ogTitle }}">
+    <meta property="og:description" content="{{ $ogDesc }}">
+    {{- with $ogImage }}
+    <meta property="og:image" content="{{ $.Permalink }}{{ . | replaceRE "^/" "" }}">
+    {{- end }}
+    <meta property="og:site_name" content="{{ (index .Site.Data .Language.Lang).general.title }}">
+
+    {{- /* Twitter Card */ -}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $ogTitle }}">
+    <meta name="twitter:description" content="{{ $ogDesc }}">
+    {{- with $ogImage }}
+    <meta name="twitter:image" content="{{ $.Permalink }}{{ . | replaceRE "^/" "" }}">
+    {{- end }}
     
     {{- $color := "style" -}}
     {{- if .Params.color_name -}}{{- $color = .Params.color_name -}}{{- end -}}
