@@ -2,7 +2,7 @@
 
 ## Goal
 
-Add a Speedtest section to the LintasHome homepage so visitors can test their connection without leaving the main landing page.
+Add a Speedtest section to the Lintashomes homepage so visitors can test their connection without leaving the main landing page.
 
 ## Placement
 
@@ -26,13 +26,13 @@ Desktop layout uses two columns: copy on the left and the Speedtest iframe on th
 
 The iframe must have an explicit height so it does not collapse, and it should use:
 
-- `title="Speedtest LintasHome"` for accessibility
+- `title="Speedtest Lintashomes"` for accessibility
 - `loading="lazy"` because the section is below the fold
 - `scrolling="no"` and `frameborder="0"` to match the SpeedtestCustom embed behavior
 
 ## Styling
 
-Add LintasHome-specific styles to `static/css/lintashome.css`. The section should feel consistent with the current landing page: clean spacing, restrained teal accent, and a contained iframe surface. Do not edit theme base CSS unless necessary.
+Add Lintashomes-specific styles to `static/css/lintashome.css`. The section should feel consistent with the current landing page: clean spacing, restrained teal accent, and a contained iframe surface. Do not edit theme base CSS unless necessary.
 
 ## Validation
 

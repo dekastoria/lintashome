@@ -1,10 +1,10 @@
 ---
 # (opsional) judul halaman untuk <title>
-title: "LintasHome, Speed Meets Stability"
+title: "Lintashomes, Speed Meets Stability"
 
 # Meta/OG/Twitter
 seo:
-  title: "LintasHome — Speed Meets Stability"
+  title: "Lintashomes — Speed Meets Stability"
   description: "Internet cepat, stabil, tanpa FUP…"
   image: "/lintashome-og.jpg"   # WA/FB suka JPG/PNG
 
@@ -22,7 +22,7 @@ twitter_image:  "/lintashome-og.jpg"
 
 # Internet Cepat & Unlimited untuk Semua Kebutuhan Anda
 
-LintasHome menghadirkan koneksi stabil, latency rendah, dan tanpa FUP — pas untuk kerja, belajar, gaming, dan hiburan 4K.
+Lintashomes menghadirkan koneksi stabil, latency rendah, dan tanpa FUP — pas untuk kerja, belajar, gaming, dan hiburan 4K.
 
 {{< button "Daftar Sekarang" "https://e.ebilling.id/billing/registrasi/?account=3758" >}}
 
@@ -33,11 +33,11 @@ LintasHome menghadirkan koneksi stabil, latency rendah, dan tanpa FUP — pas un
 <div id="tentang"></div>
 {{< brick_image2 >}}
 
-## Kenapa Memilih LintasHome?
+## Kenapa Memilih Lintashomes?
 
 ![](/static-assets-cuate.svg)
 
-LintasHome adalah penyedia layanan internet berbasis RT/RW-Net yang berdiri sejak 2016 di Jepara.
+Lintashomes adalah penyedia layanan internet berbasis RT/RW-Net yang berdiri sejak 2016 di Jepara.
 Berawal dari inisiatif menghadirkan internet terjangkau bagi masyarakat Jepara, kini kami berkembang menjadi penyedia layanan internet RT/RW-Net yang legal dan andal, kami bermitra dengan PT CYB Media Group sebagai backbone resmi dengan direct link ke IDC Jakarta.
 
 Dengan dukungan jaringan fiber optic dan tim teknis berpengalaman, kami berkomitmen menghadirkan koneksi internet yang stabil, cepat, dan berkualitas untuk masyarakat Jepara.
@@ -47,7 +47,7 @@ Dengan dukungan jaringan fiber optic dan tim teknis berpengalaman, kami berkomit
 
 {{< brick_image >}}
 
-## Keunggulan Utama LintasHome
+## Keunggulan Utama Lintashomes
 
 ![](/version-control-cuate.svg)
 
@@ -60,7 +60,7 @@ Kami menghadirkan internet yang **stabil, cepat, dan tanpa FUP** untuk rumah mau
 - Opsi **Dedicated/SLA bisnis** untuk kebutuhan perusahaan.
 - **Customer Service ramah & responsif**
 
-Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20minta%20rekomendasi%20paket%20internet%20yang%20cocok).
+Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20minta%20rekomendasi%20paket%20internet%20yang%20cocok).
 
 {{< /brick_image >}}
 <!-- ===== SPEEDTEST ===== -->
@@ -69,14 +69,14 @@ Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/6282225
   <div class="container">
     <div class="speedtest-layout">
       <div class="speedtest-copy">
-        <p class="speedtest-kicker">Speedtest LintasHome</p>
+        <p class="speedtest-kicker">Speedtest Lintashomes</p>
         <h2>Uji Kecepatan Internet Anda</h2>
-        <p>Cek kecepatan koneksi LintasHome Anda secara real-time melalui server speedtest kami.</p>
+        <p>Cek kecepatan koneksi Lintashomes Anda secara real-time melalui server speedtest kami.</p>
       </div>
       <div class="speedtest-frame">
         <iframe
           src="https://dsserver.speedtestcustom.com"
-          title="Speedtest LintasHome"
+          title="Speedtest Lintashomes"
           loading="lazy"
           scrolling="no"
           frameborder="0"></iframe>
@@ -93,9 +93,9 @@ Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/6282225
 <div id="layanan"></div>
 {{< brick_features >}}
 
-## Layanan Utama LintasHome
+## Layanan Utama Lintashomes
 
-LintasHome menghadirkan internet **stabil, cepat, dan tanpa FUP** untuk rumah, toko/UMKM, dan kantor di Jepara. Cocok untuk kerja, belajar, gaming, hingga streaming 4K—dengan dukungan teknis yang responsif.
+Lintashomes menghadirkan internet **stabil, cepat, dan tanpa FUP** untuk rumah, toko/UMKM, dan kantor di Jepara. Cocok untuk kerja, belajar, gaming, hingga streaming 4K—dengan dukungan teknis yang responsif.
 
 ---
 
@@ -139,7 +139,7 @@ Pembuatan **server data**, **server IPTV**, dan **RTRW-net** untuk kebutuhan kom
 <div id="harga"></div>
 {{< brick_prices >}}
 
-## Harga Paket Internet LintasHome
+## Harga Paket Internet Lintashomes
 
 Pilih paket yang pas untuk rumah, toko/UMKM, atau kantor. Semua paket **tanpa FUP**, **gratis pemasangan**, dan **modem dipinjamkan**.
 
@@ -158,7 +158,7 @@ Pilihan paling ringan untuk kebutuhan dasar di rumah.
 - Internet stabil untuk browsing & chat
 - **CS siap bantu**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2015Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2015Mbps%29)
 
 ---
 
@@ -175,7 +175,7 @@ Paling pas untuk keluarga aktif, streaming, dan kerja dari rumah.
 - Internet stabil 24 jam
 - **Instalasi cepat**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2025Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2025Mbps%29)
 
 ---
 
@@ -192,7 +192,7 @@ Untuk toko, UMKM, dan kantor kecil yang butuh koneksi konsisten.
 - Prioritas untuk kasir, CCTV, dan operasional
 - **CS responsif**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2050Mbps%29)
+[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2050Mbps%29)
 
 ---
 
@@ -209,7 +209,7 @@ Untuk kebutuhan tinggi, banyak perangkat, dan penggunaan lebih intensif.
 - Nyaman untuk streaming, kerja, CCTV, dan upload besar
 - Dukungan prioritas
 
-[Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%20100Mbps%29)
+[Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%20100Mbps%29)
 
 {{< /brick_prices >}}
 

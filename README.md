@@ -1,8 +1,8 @@
-# LintasHome
+# Lintashomes
 
-Website utama LintasHome untuk promosi layanan internet rumah dan bisnis di Jepara.
+Website utama Lintashomes untuk promosi layanan internet rumah dan bisnis di Jepara.
 
-Repository ini berisi situs **Hugo** untuk landing page utama, halaman pendaftaran singkat, blok konten reusable, serta aset statis pendukung. Repo ini juga menyimpan halaman pembayaran statis terpisah di folder `bayar.lintashome.com/`.
+Repository ini berisi situs **Hugo** untuk landing page utama, halaman pendaftaran singkat, blok konten reusable, serta aset statis pendukung. Repo ini juga menyimpan halaman pembayaran statis terpisah di folder `billing.lintashomes.com/`.
 
 ## Ringkasan
 
@@ -11,14 +11,14 @@ Repository ini berisi situs **Hugo** untuk landing page utama, halaman pendaftar
 - Paket internet rumah, UMKM, dan bisnis
 - Section layanan seperti dedicated, hotspot voucher, IPTV, CCTV, dan layanan tambahan
 - Build static site cepat dengan Hugo
-- Halaman pembayaran statis terpisah di `bayar.lintashome.com/`
+- Halaman pembayaran statis terpisah di `billing.lintashomes.com/`
 
 ## Tech Stack
 
 - [Hugo Extended](https://gohugo.io/) `v0.152.2+extended`
 - Konten berbasis Markdown + data YAML
 - Styling kustom di `static/css/lintashome.css`
-- HTML statis untuk halaman pembayaran di `bayar.lintashome.com/index.html`
+- HTML statis untuk halaman pembayaran di `billing.lintashomes.com/index.html`
 
 ## Struktur Project
 
@@ -35,7 +35,7 @@ Repository ini berisi situs **Hugo** untuk landing page utama, halaman pendaftar
 - `data/en/webshop.yaml` — data CTA/tautan terkait penjualan
 - `static/` — aset statis dan CSS kustom
 - `themes/` — komponen tema dan layout situs
-- `bayar.lintashome.com/` — halaman pembayaran statis dan aset QRIS
+- `billing.lintashomes.com/` — halaman pembayaran statis dan aset QRIS
 
 ## Menjalankan Project
 
@@ -66,7 +66,7 @@ Output build akan dibuat di folder `public/`.
 Landing page saat ini mencakup:
 
 - Hero section dengan CTA daftar
-- Tentang LintasHome
+- Tentang Lintashomes
 - Keunggulan layanan internet
 - Testimoni pelanggan
 - Daftar layanan utama
@@ -82,7 +82,7 @@ Halaman yang tersedia di repo saat ini:
 ## Kontak Saat Ini
 
 - WhatsApp / Telepon: `+6282225488188`
-- Email: `admin@lintasjepara.com`
+- Email: `noc.lintasjepara@gmail.com`
 
 ## Catatan
 

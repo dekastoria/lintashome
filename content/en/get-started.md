@@ -10,7 +10,7 @@ title: Get started
 Silakan isi formulir **atau** chat WhatsApp untuk respon tercepat.
 
 <a class="button"
-   href="https://wa.me/6282225488188?text=Halo%20LintasHome%2C%20saya%20ingin%20daftar%20internet%20LintasHome"
+   href="https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20internet%20Lintashomes"
    target="_blank" rel="noopener noreferrer">
   Chat via WhatsApp
 </a>
