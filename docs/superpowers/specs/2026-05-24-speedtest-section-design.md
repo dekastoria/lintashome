@@ -32,7 +32,7 @@ The iframe must have an explicit height so it does not collapse, and it should u
 
 ## Styling
 
-Add Lintashomes-specific styles to `static/css/lintashome.css`. The section should feel consistent with the current landing page: clean spacing, restrained teal accent, and a contained iframe surface. Do not edit theme base CSS unless necessary.
+Add Lintashomes-specific styles to `static/css/lintashomes.css`. The section should feel consistent with the current landing page: clean spacing, restrained teal accent, and a contained iframe surface. Do not edit theme base CSS unless necessary.
 
 ## Validation
 

@@ -6,17 +6,17 @@ title: "Lintashomes, Speed Meets Stability"
 seo:
   title: "Lintashomes — Speed Meets Stability"
   description: "Internet cepat, stabil, tanpa FUP…"
-  image: "/lintashome-og.jpg"   # WA/FB suka JPG/PNG
+  image: "/lintashomes-og.jpg"   # WA/FB suka JPG/PNG
 
 # Dipakai oleh Hugo/tema sebagai sumber gambar halaman
 images:
-  - "/lintashome-og.jpg"        # prioritas 1 (OG aman)
-  - "/lintashome-og.webp"       # fallback tambahan
+  - "/lintashomes-og.jpg"        # prioritas 1 (OG aman)
+  - "/lintashomes-og.webp"       # fallback tambahan
 
 # Beberapa tema masih baca kunci ini:
-featured_image: "/lintashome-og.jpg"
-og_image:       "/lintashome-og.jpg"
-twitter_image:  "/lintashome-og.jpg"
+featured_image: "/lintashomes-og.jpg"
+og_image:       "/lintashomes-og.jpg"
+twitter_image:  "/lintashomes-og.jpg"
 ---
 {{< brick_intro >}}
 
@@ -24,7 +24,7 @@ twitter_image:  "/lintashome-og.jpg"
 
 Lintashomes menghadirkan koneksi stabil, latency rendah, dan tanpa FUP — pas untuk kerja, belajar, gaming, dan hiburan 4K.
 
-{{< button "Daftar Sekarang" "https://e.ebilling.id/billing/registrasi/?account=3758" >}}
+{{< button "Daftar Sekarang" "https://billing.lintashomes.com/" >}}
 
 ![](/Online-world-cuate.svg)
 
@@ -60,7 +60,7 @@ Kami menghadirkan internet yang **stabil, cepat, dan tanpa FUP** untuk rumah mau
 - Opsi **Dedicated/SLA bisnis** untuk kebutuhan perusahaan.
 - **Customer Service ramah & responsif**
 
-Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20minta%20rekomendasi%20paket%20internet%20yang%20cocok).
+Butuh rekomendasi paket yang pas? [Chat kami via WhatsApp](https://wa.me/lintashomes?text=Halo%20Lintashomes%2C%20saya%20minta%20rekomendasi%20paket%20internet%20yang%20cocok).
 
 {{< /brick_image >}}
 <!-- ===== SPEEDTEST ===== -->
@@ -158,7 +158,7 @@ Pilihan paling ringan untuk kebutuhan dasar di rumah.
 - Internet stabil untuk browsing & chat
 - **CS siap bantu**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2015Mbps%29)
+[Pilih Paket Ini](https://wa.me/lintashomes?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Hemat%20Rp100rb%2Fbln%20%28hingga%2015Mbps%29)
 
 ---
 
@@ -175,7 +175,7 @@ Paling pas untuk keluarga aktif, streaming, dan kerja dari rumah.
 - Internet stabil 24 jam
 - **Instalasi cepat**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2025Mbps%29)
+[Pilih Paket Ini](https://wa.me/lintashomes?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Keluarga%20Rp150rb%2Fbln%20%28hingga%2025Mbps%29)
 
 ---
 
@@ -192,7 +192,7 @@ Untuk toko, UMKM, dan kantor kecil yang butuh koneksi konsisten.
 - Prioritas untuk kasir, CCTV, dan operasional
 - **CS responsif**
 
-[Pilih Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2050Mbps%29)
+[Pilih Paket Ini](https://wa.me/lintashomes?text=Halo%20Lintashomes%2C%20saya%20ingin%20daftar%20Paket%20Bisnis%20Rp200rb%2Fbln%20%28hingga%2050Mbps%29)
 
 ---
 
@@ -209,7 +209,7 @@ Untuk kebutuhan tinggi, banyak perangkat, dan penggunaan lebih intensif.
 - Nyaman untuk streaming, kerja, CCTV, dan upload besar
 - Dukungan prioritas
 
-[Konsultasi Paket Ini](https://wa.me/6282225488188?text=Halo%20Lintashomes%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%20100Mbps%29)
+[Konsultasi Paket Ini](https://wa.me/lintashomes?text=Halo%20Lintashomes%2C%20saya%20ingin%20informasi%20Paket%20Premium%20Rp250rb%2Fbln%20%28hingga%20100Mbps%29)
 
 {{< /brick_prices >}}
 

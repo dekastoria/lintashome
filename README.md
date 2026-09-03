@@ -17,7 +17,7 @@ Repository ini berisi situs **Hugo** untuk landing page utama, halaman pendaftar
 
 - [Hugo Extended](https://gohugo.io/) `v0.152.2+extended`
 - Konten berbasis Markdown + data YAML
-- Styling kustom di `static/css/lintashome.css`
+- Styling kustom di `static/css/lintashomes.css`
 - HTML statis untuk halaman pembayaran di `billing.lintashomes.com/index.html`
 
 ## Struktur Project

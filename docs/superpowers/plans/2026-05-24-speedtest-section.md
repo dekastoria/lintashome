@@ -4,7 +4,7 @@
 
 **Goal:** Add a Speedtest navbar item and embedded SpeedtestCustom section to the Lintashomes homepage before the final Contact/CTA section.
 
-**Architecture:** This is a small Hugo content and styling change. The homepage section is added inline in `content/en/_index.md`, navigation is data-driven through `data/en/header.yaml`, and visual styling stays in the site override stylesheet `static/css/lintashome.css`.
+**Architecture:** This is a small Hugo content and styling change. The homepage section is added inline in `content/en/_index.md`, navigation is data-driven through `data/en/header.yaml`, and visual styling stays in the site override stylesheet `static/css/lintashomes.css`.
 
 **Tech Stack:** Hugo Extended, Markdown with inline HTML, YAML data files, CSS.
 
@@ -14,7 +14,7 @@
 
 - Modify `data/en/header.yaml`: add the `Speedtest` navbar item between `Harga` and `Kontak`.
 - Modify `content/en/_index.md`: add the `#speedtest` anchor and inline Speedtest section after `{{< /brick_prices >}}` and before the existing Contact/CTA block.
-- Modify `static/css/lintashome.css`: add responsive styles for the Speedtest section and iframe.
+- Modify `static/css/lintashomes.css`: add responsive styles for the Speedtest section and iframe.
 
 ---
 
@@ -120,7 +120,7 @@ Expected: Hugo builds successfully and does not escape the `<section>` or `<ifra
 ### Task 3: Add responsive Speedtest styling
 
 **Files:**
-- Modify: `static/css/lintashome.css`
+- Modify: `static/css/lintashomes.css`
 
 - [ ] **Step 1: Append Speedtest styles at the end of the file**
 
@@ -234,7 +234,7 @@ Resize browser below `900px`. Confirm:
 Run:
 
 ```bash
-git add data/en/header.yaml content/en/_index.md static/css/lintashome.css
+git add data/en/header.yaml content/en/_index.md static/css/lintashomes.css
 git commit -m "$(cat <<'EOF'
 Add homepage speedtest section
 

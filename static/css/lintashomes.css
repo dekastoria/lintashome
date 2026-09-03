@@ -104,7 +104,7 @@ a.button.secondary:focus {
 /* Footer: sembunyikan hanya gambar logo, biarkan teksnya tampil */
 footer .logo img,
 footer .footerlogo img,
-footer .logo img[src$="lintashome-logo-only.webp"] {
+footer .logo img[src$="lintashomes-logo-only.webp"] {
   display: none !important;
 }
 
